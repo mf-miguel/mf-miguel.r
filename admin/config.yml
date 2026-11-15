@@ -1,0 +1,27 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "img/productos"
+public_folder: "img/productos"
+
+collections:
+  - name: productos
+    label: "Productos"
+    file: "productos.json"
+    format: json
+    fields:
+      - label: "Prendas"
+        name: "items"
+        widget: list
+        label_singular: "prenda"
+        summary: "{{name}} - S/ {{price}}"
+        fields:
+          - { label: "Nombre", name: "name", widget: string }
+          - label: "Categoría"
+            name: "cat"
+            widget: select
+            options: ["Polos", "Camisas", "Pantalones"]
+          - { label: "Precio (S/)", name: "price", widget: number, value_type: float }
+          - { label: "Tallas", name: "sizes", widget: string, hint: "Ej: S, M, L, XL" }
+          - { label: "Foto", name: "img", widget: image, required: false }
