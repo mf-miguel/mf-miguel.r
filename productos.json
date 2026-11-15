@@ -1,0 +1,10 @@
+{
+  "items": [
+    { "name": "Polo básico algodón", "cat": "Polos", "price": 35, "sizes": "S, M, L, XL", "img": "" },
+    { "name": "Polo estampado", "cat": "Polos", "price": 45, "sizes": "M, L, XL", "img": "" },
+    { "name": "Camisa manga larga", "cat": "Camisas", "price": 65, "sizes": "S, M, L", "img": "" },
+    { "name": "Camisa casual", "cat": "Camisas", "price": 58, "sizes": "M, L, XL", "img": "" },
+    { "name": "Pantalón jean clásico", "cat": "Pantalones", "price": 89, "sizes": "28 a 36", "img": "" },
+    { "name": "Pantalón de vestir", "cat": "Pantalones", "price": 75, "sizes": "30 a 38", "img": "" }
+  ]
+}
